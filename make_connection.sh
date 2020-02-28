@@ -43,4 +43,5 @@ echo -e "${red}#Restarting the connection\n"
 service NetworkManager restart
 echo -e "#done\n"
 
-echo -e "${green}#Make connecting ${SSID} again!!"
+echo -e "${green}#Make connecting ${SSID} again and Restarting OS!!"
+sudo init 6
